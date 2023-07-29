@@ -44,6 +44,7 @@
 		B3BA7CB12A751DFA00FB39E5 /* NationalRailTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NationalRailTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3BA7CB52A751DFA00FB39E5 /* NationalRailTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalRailTestUITests.swift; sourceTree = "<group>"; };
 		B3BA7CB72A751DFA00FB39E5 /* NationalRailTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalRailTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3BA7CC82A751F2D00FB39E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +95,11 @@
 		B3BA7C992A751DF800FB39E5 /* NationalRailTest */ = {
 			isa = PBXGroup;
 			children = (
+				B3BA7CC82A751F2D00FB39E5 /* Info.plist */,
 				B3BA7C9A2A751DF800FB39E5 /* NationalRailTestApp.swift */,
+				B3BA7CC62A751ED800FB39E5 /* Resources */,
+				B3BA7CC52A751ECD00FB39E5 /* Views */,
+				B3BA7CC42A751EC500FB39E5 /* App */,
 				B3BA7C9C2A751DF800FB39E5 /* ContentView.swift */,
 				B3BA7C9E2A751DFA00FB39E5 /* Assets.xcassets */,
 				B3BA7CA02A751DFA00FB39E5 /* Preview Content */,
@@ -125,6 +130,27 @@
 				B3BA7CB72A751DFA00FB39E5 /* NationalRailTestUITestsLaunchTests.swift */,
 			);
 			path = NationalRailTestUITests;
+			sourceTree = "<group>";
+		};
+		B3BA7CC42A751EC500FB39E5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B3BA7CC52A751ECD00FB39E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B3BA7CC62A751ED800FB39E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -420,6 +446,7 @@
 				DEVELOPMENT_TEAM = 38BRD9SJV7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NationalRailTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +476,7 @@
 				DEVELOPMENT_TEAM = 38BRD9SJV7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NationalRailTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
